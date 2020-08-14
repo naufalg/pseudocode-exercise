@@ -1,0 +1,34 @@
+//////// soal /////////
+Buatlah Algoritma untuk menyelesaikan problem ini
+
+Amanda ingin memiliki aplikasi yang dapat menghitung harga tiket pesawat
+yang harus dibayar oleh Traveler.
+
+Data yang akan diinput adalah
+
+Jumlah Traveler
+
+Harga Tiket Pesawat
+
+Cek apakah membeli tiket one way or two way
+
+Misalnya jumlah traveler 2 orang. Per tiketnya seharga Rp 600.000.
+
+Maka program akan memberikan nilai berupa harga yang harus dibayar
+sebesar Rp 1.200.000
+
+////////// jawaban //////////
+INPUT "jumlah traveler" data
+INPUT "harga tiket" data
+INPUT "one way" OR "two way"
+
+IF (one way)
+    THEN CALCULATE ("jumlah traveler" * "harga tiket")
+    STORE result to "harga total"
+    SHOW "harga total"
+ELSE THEN CALCULATE ("jumlah traveler" * "harga tiket" * 2)
+    STORE result to "harga total"
+    SHOW "harga total"
+    
+
+////////// by:Naufal Ghifari (2020/8/14) //////////

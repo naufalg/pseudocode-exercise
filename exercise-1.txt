@@ -1,0 +1,25 @@
+//////// soal /////////
+Buatlah Algoritma untuk menyelesaikan problem ini
+
+David memiliki program yang membutuhkan untuk convert data dari
+jumlah jam ke detik
+
+Contohnya jika program memiliki input 2 jam maka output yang
+diharapkan adalah 7200 detik
+
+////////// jawaban //////////
+INPUT "hours" data
+CALCULATE "hours" times 60
+STORE result to "minutes"
+CALCULATE "minutes" times 60
+STORE result to "second"
+show "second" data
+
+////////// simplified //////////
+INPUT "hours" data
+CALCULATE "hours" times 3600
+STORE result to "second"
+show "second" data
+
+
+////////// by:Naufal Ghifari (2020/8/14) //////////

@@ -1,0 +1,21 @@
+//////// soal /////////
+Buatlah Algoritma untuk menyelesaikan problem ini
+
+William ingin menampilkan deretan nilai dari 0 sampai N.
+
+N adalah nilai akhir yang diinputkan.
+
+Jika William menginput N dengan nilai 100, maka program akan
+menampilkan deretan nilai 1, 2, 3, 4, 5, … , 100
+
+////////// jawaban //////////
+ASSIGN "count" data to 1
+INPUT "n"
+
+WHILE ("count" <= "n")
+    SHOW "count"
+    ADD "count" by 1
+    STORE result to "count"
+
+
+////////// by:Naufal Ghifari (2020/8/14) //////////

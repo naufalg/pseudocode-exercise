@@ -1,0 +1,30 @@
+//////// soal /////////
+Buatlah Algoritma untuk menyelesaikan problem ini
+
+Ridho ingin memiliki program untuk mengetahui hasil perbandingan dari 2
+buah nilai yang tersedia.
+
+Program harus bisa menampilkan output nilai terbesar atau nilai yang sama
+jika kedua buah nilai memiliki nilai yang sama.
+
+Contohnya jika Ridho input nilai pertama 10 dan nilai kedua 20. Maka
+output program adalah: 20 nilai terbesar
+
+Jika Ridho input nilai pertama adalah 5 dan nilai kedua adalah 5. Maka
+output program adalah nilai pertama sama dengan nilai kedua
+
+////////// jawaban //////////
+INPUT "num1" data
+INPUT "num2" data
+
+IF (num1 > num2)
+    THEN PRINT (num1 + "memiliki nilai terbesar")
+
+ELSE IF (num2 > num1) 
+    THEN PRINT (num2 + "memiliki nilai terbesar")
+
+ELSE 
+    PRINT ("nilai pertama sama dengan nilai kedua)
+    
+
+////////// by:Naufal Ghifari (2020/8/14) //////////
